@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{91DFAE0F-2170-46A9-B33E-02FA8AC87EDA}</ProjectGuid>
+    <RootNamespace>AstronomySolarSystem</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+    <ProjectName>Solar System Simulation (Win7)</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\Users\Cristian\Documents\OpenGL\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;glfw3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Users\Cristian\Documents\OpenGL\Libraries;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(SolutionDir)Include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>opengl32.lib;glfw3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)Lib\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(SolutionDir)Include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(SolutionDir)Lib\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opengl32.lib;glfw3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Asteroid.cpp" />
+    <ClCompile Include="BloomShader.cpp" />
+    <ClCompile Include="BrightnessGateShader.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="CameraFirstPersonNoclip.cpp" />
+    <ClCompile Include="CameraThirdPerson.cpp" />
+    <ClCompile Include="Color.cpp" />
+    <ClCompile Include="ContrastShader.cpp" />
+    <ClCompile Include="Display.cpp" />
+    <ClCompile Include="DynamicTextMesh.cpp" />
+    <ClCompile Include="FadedShape.cpp" />
+    <ClCompile Include="Font.cpp" />
+    <ClCompile Include="FontLoader.cpp" />
+    <ClCompile Include="glad.c" />
+    <ClCompile Include="Orbit.cpp" />
+    <ClCompile Include="Planet.cpp" />
+    <ClCompile Include="Point.cpp" />
+    <ClCompile Include="PointManager.cpp" />
+    <ClCompile Include="PointRenderer.cpp" />
+    <ClCompile Include="PointShader.cpp" />
+    <ClCompile Include="ShapeManager.cpp" />
+    <ClCompile Include="ShapeRenderer.cpp" />
+    <ClCompile Include="ShapeShader.cpp" />
+    <ClCompile Include="Engine.cpp" />
+    <ClCompile Include="Entity.cpp" />
+    <ClCompile Include="EntityManager.cpp" />
+    <ClCompile Include="EntityRenderer.cpp" />
+    <ClCompile Include="FBO.cpp" />
+    <ClCompile Include="Gui.cpp" />
+    <ClCompile Include="GuiManager.cpp" />
+    <ClCompile Include="GuiRenderer.cpp" />
+    <ClCompile Include="GuiShader.cpp" />
+    <ClCompile Include="HorizontalBlurShader.cpp" />
+    <ClCompile Include="Input.cpp" />
+    <ClCompile Include="Light.cpp" />
+    <ClCompile Include="LightManager.cpp" />
+    <ClCompile Include="Loader.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Mesh.cpp" />
+    <ClCompile Include="PostProcessing.cpp" />
+    <ClCompile Include="Shader.cpp" />
+    <ClCompile Include="Shape.cpp" />
+    <ClCompile Include="Skybox.cpp" />
+    <ClCompile Include="SkyboxRenderer.cpp" />
+    <ClCompile Include="SkyboxShader.cpp" />
+    <ClCompile Include="StaticShader.cpp" />
+    <ClCompile Include="SunShader.cpp" />
+    <ClCompile Include="TerrainShader.cpp" />
+    <ClCompile Include="TextManager.cpp" />
+    <ClCompile Include="TextMesh.cpp" />
+    <ClCompile Include="TextRenderer.cpp" />
+    <ClCompile Include="TextShader.cpp" />
+    <ClCompile Include="Texture.cpp" />
+    <ClCompile Include="Time.cpp" />
+    <ClCompile Include="VectorMatrix.cpp" />
+    <ClCompile Include="VerticalBlurShader.cpp" />
+    <ClCompile Include="WaterShader.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Asteroid.h" />
+    <ClInclude Include="BloomShader.h" />
+    <ClInclude Include="BrightnessGateShader.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="CameraFirstPersonNoclip.h" />
+    <ClInclude Include="CameraThirdPerson.h" />
+    <ClInclude Include="Color.h" />
+    <ClInclude Include="ContrastShader.h" />
+    <ClInclude Include="Display.h" />
+    <ClInclude Include="DynamicTextMesh.h" />
+    <ClInclude Include="FadedShape.h" />
+    <ClInclude Include="Font.h" />
+    <ClInclude Include="FontLoader.h" />
+    <ClInclude Include="INIReader.h" />
+    <ClInclude Include="Orbit.h" />
+    <ClInclude Include="Planet.h" />
+    <ClInclude Include="Point.h" />
+    <ClInclude Include="PointManager.h" />
+    <ClInclude Include="PointRenderer.h" />
+    <ClInclude Include="PointShader.h" />
+    <ClInclude Include="ShapeManager.h" />
+    <ClInclude Include="ShapeRenderer.h" />
+    <ClInclude Include="ShapeShader.h" />
+    <ClInclude Include="Engine.h" />
+    <ClInclude Include="Entity.h" />
+    <ClInclude Include="EntityManager.h" />
+    <ClInclude Include="EntityRenderer.h" />
+    <ClInclude Include="FBO.h" />
+    <ClInclude Include="Gui.h" />
+    <ClInclude Include="GuiManager.h" />
+    <ClInclude Include="GuiRenderer.h" />
+    <ClInclude Include="GuiShader.h" />
+    <ClInclude Include="HorizontalBlurShader.h" />
+    <ClInclude Include="Input.h" />
+    <ClInclude Include="Light.h" />
+    <ClInclude Include="LightManager.h" />
+    <ClInclude Include="Loader.h" />
+    <ClInclude Include="Mesh.h" />
+    <ClInclude Include="OBJ_Loader.h" />
+    <ClInclude Include="PostProcessing.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Shader.h" />
+    <ClInclude Include="Shape.h" />
+    <ClInclude Include="Skybox.h" />
+    <ClInclude Include="SkyboxRenderer.h" />
+    <ClInclude Include="SkyboxShader.h" />
+    <ClInclude Include="StaticShader.h" />
+    <ClInclude Include="stb_image.h" />
+    <ClInclude Include="TextManager.h" />
+    <ClInclude Include="TextMesh.h" />
+    <ClInclude Include="TextRenderer.h" />
+    <ClInclude Include="TextShader.h" />
+    <ClInclude Include="utils.h" />
+    <ClInclude Include="SunShader.h" />
+    <ClInclude Include="TerrainShader.h" />
+    <ClInclude Include="Texture.h" />
+    <ClInclude Include="Time.h" />
+    <ClInclude Include="VectorMatrix.h" />
+    <ClInclude Include="VerticalBlurShader.h" />
+    <ClInclude Include="WaterShader.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bloomFragmentShader.glsl" />
+    <None Include="bloomVertexShader.glsl" />
+    <None Include="brightnessGateFragmentShader.glsl" />
+    <None Include="brightnessGateVertexShader.glsl" />
+    <None Include="config.ini" />
+    <None Include="contrastFragmentShader.glsl" />
+    <None Include="contrastVertexShader.glsl" />
+    <None Include="shaders\bloomFragmentShader.glsl" />
+    <None Include="shaders\bloomVertexShader.glsl" />
+    <None Include="shaders\brightnessGateFragmentShader.glsl" />
+    <None Include="shaders\brightnessGateVertexShader.glsl" />
+    <None Include="shaders\contrastFragmentShader.glsl" />
+    <None Include="shaders\contrastVertexShader.glsl" />
+    <None Include="shaders\guiFragmentShader.glsl" />
+    <None Include="shaders\guiVertexShader.glsl" />
+    <None Include="shaders\horizontalBlurFragmentShader.glsl" />
+    <None Include="shaders\horizontalBlurVertexShader.glsl" />
+    <None Include="shaders\pointFragmentShader.glsl" />
+    <None Include="shaders\pointVertexShader.glsl" />
+    <None Include="shaders\shapeFragmentShader.glsl" />
+    <None Include="shaders\shapeVertexShader.glsl" />
+    <None Include="shaders\skyboxFragmentShader.glsl" />
+    <None Include="shaders\skyboxVertexShader.glsl" />
+    <None Include="shaders\staticFragmentShader.glsl" />
+    <None Include="shaders\staticVertexShader.glsl" />
+    <None Include="shaders\sunFragmentShader.glsl" />
+    <None Include="shaders\sunVertexShader.glsl" />
+    <None Include="shaders\terrainFragmentShader.glsl" />
+    <None Include="shaders\terrainVertexShader.glsl" />
+    <None Include="shaders\textFragmentShader.glsl" />
+    <None Include="shaders\textVertexShader.glsl" />
+    <None Include="shaders\verticalBlurFragmentShader.glsl" />
+    <None Include="shaders\verticalBlurVertexShader.glsl" />
+    <None Include="shaders\waterFragmentShader.glsl" />
+    <None Include="shaders\waterGeometryShader.glsl" />
+    <None Include="shaders\waterVertexShader.glsl" />
+    <None Include="horizontalBlurFragmentShader.glsl" />
+    <None Include="horizontalBlurVertexShader.glsl" />
+    <None Include="verticalBlurFragmentShader.glsl" />
+    <None Include="verticalBlurVertexShader.glsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Astronomy Solar System.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,634 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Shaders">
+      <UniqueIdentifier>{9ba75a20-8a7c-4703-9dba-9158f29579d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Camera">
+      <UniqueIdentifier>{d1723307-dbf8-4c76-a6d5-60dc2a77a37d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Display">
+      <UniqueIdentifier>{c571812f-8bc2-4f4a-bd24-06560eef451f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entities">
+      <UniqueIdentifier>{eb407e46-a748-453a-9fcf-04909c616cee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUI">
+      <UniqueIdentifier>{5d3a8f4e-6656-43db-a465-b82d048c0f66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Models">
+      <UniqueIdentifier>{7a5c047b-7d61-47a8-84d7-e0408edbe889}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Render Engine">
+      <UniqueIdentifier>{97c47f29-df76-48f3-9f0d-a7bc3f16035b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Skybox">
+      <UniqueIdentifier>{78247781-f8e1-4189-abd7-f0d3d5f5ebd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Toolbox">
+      <UniqueIdentifier>{be970cd1-3b3d-4d1b-a399-7a461cf185db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Post Processing">
+      <UniqueIdentifier>{232f3bd3-f00f-4b79-82b8-77bdf9571715}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Post Processing\Bloom Effect">
+      <UniqueIdentifier>{0428c9bd-5c70-44e7-b934-236bc7afc933}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Post Processing\Contrast Changer">
+      <UniqueIdentifier>{b9c42e27-3d0c-49ed-83ce-be42c0471cc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Post Processing\Horizontal Blur">
+      <UniqueIdentifier>{12431cae-4cac-4a1f-9cde-72145a6cda7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Post Processing\Vertical Blur">
+      <UniqueIdentifier>{2561a1a6-fcdf-495e-8067-00a8451b115d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Camera">
+      <UniqueIdentifier>{9dd276f5-ac98-483d-9782-c046ac2795f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Display">
+      <UniqueIdentifier>{24c1d798-236a-4ca1-a174-ec7fbfce749f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entities">
+      <UniqueIdentifier>{0fe7e5b3-3e93-4620-afef-77e42324491c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shaders">
+      <UniqueIdentifier>{c349c996-fb0c-46d1-8ccd-ff5d55ce84a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Render Engine">
+      <UniqueIdentifier>{e0405b7b-dae2-43d7-a3d5-8b684437ddb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Toolbox">
+      <UniqueIdentifier>{38b370f0-149a-48e6-81d9-132e66fdca55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Models">
+      <UniqueIdentifier>{c9171320-3ba3-4955-ba2b-c09de22cab9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUI">
+      <UniqueIdentifier>{034f28a1-eb8f-4f3e-888c-d5bde531aeeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Post Processing">
+      <UniqueIdentifier>{2bbfb1c5-8470-4baf-8735-15103d3ca47c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Skybox">
+      <UniqueIdentifier>{ddf6cc91-92e2-4b50-a3a5-f3a67d45c73a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shape">
+      <UniqueIdentifier>{bef5ecd2-f075-4272-a683-b77822a2252c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shape">
+      <UniqueIdentifier>{2ad3b6fa-fe80-4df1-a743-a05d853bf7f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Point">
+      <UniqueIdentifier>{46da130b-452d-42cc-8ae6-34e53c4c5294}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Point">
+      <UniqueIdentifier>{bb685bea-81cb-490f-b1e2-70a67d54af97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader Source">
+      <UniqueIdentifier>{b9b3a925-fefd-4fd9-b4c2-adcc78e406b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader Source\Bloom">
+      <UniqueIdentifier>{4ee4a5dc-abb4-42b7-ae0b-1077bd0a6601}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader Source\Contrast">
+      <UniqueIdentifier>{e816796a-e561-4d9b-be48-9035a9ffe6b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader Source\Gui">
+      <UniqueIdentifier>{ce6d9b37-6550-496d-a0ff-2789fe65c646}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader Source\Blur">
+      <UniqueIdentifier>{97f6f307-2d3c-4974-b762-b46e050dbde2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader Source\Point">
+      <UniqueIdentifier>{abfa748e-059c-4b8b-90ea-ebf6ec51ee52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader Source\Shape">
+      <UniqueIdentifier>{e5108cb0-004d-4d7c-993a-aa74f20957b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader Source\Static">
+      <UniqueIdentifier>{f96115c3-95fa-4571-a7eb-9f27b5f599f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader Source\Sun">
+      <UniqueIdentifier>{1b384964-e06d-4de7-890a-3b01b94505f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader Source\Terrain">
+      <UniqueIdentifier>{aa4a1ed9-5763-415e-b53c-2bd9aab402e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader Source\Skybox">
+      <UniqueIdentifier>{05baf4a8-198e-415b-8ef8-97006cd37d12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader Source\Water">
+      <UniqueIdentifier>{5e719e3a-9422-4ae0-a537-68a78b1425eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Fonts">
+      <UniqueIdentifier>{cd76cd37-acd2-4d6e-b13e-88da05e20cf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader Source\Text">
+      <UniqueIdentifier>{067877bf-2c69-475a-884b-02697bde4a79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Text">
+      <UniqueIdentifier>{802df236-c017-4715-bca4-bcf5f3f43a73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Text">
+      <UniqueIdentifier>{7e9a079b-2d7d-4552-aaa1-0e2b2b392d53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Font">
+      <UniqueIdentifier>{746823cc-5281-4612-b97b-239eb26fdd4a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraFirstPersonNoclip.cpp">
+      <Filter>Source Files\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Display.cpp">
+      <Filter>Source Files\Display</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityManager.cpp">
+      <Filter>Source Files\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Source Files\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="LightManager.cpp">
+      <Filter>Source Files\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Source Files\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiManager.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Source Files\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Source Files\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Source Files\Render Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityRenderer.cpp">
+      <Filter>Source Files\Render Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiRenderer.cpp">
+      <Filter>Source Files\Render Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyboxRenderer.cpp">
+      <Filter>Source Files\Render Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Skybox.cpp">
+      <Filter>Source Files\Skybox</Filter>
+    </ClCompile>
+    <ClCompile Include="Color.cpp">
+      <Filter>Source Files\Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="FBO.cpp">
+      <Filter>Source Files\Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Source Files\Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="Loader.cpp">
+      <Filter>Source Files\Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="VectorMatrix.cpp">
+      <Filter>Source Files\Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Source Files\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="PostProcessing.cpp">
+      <Filter>Source Files\Post Processing</Filter>
+    </ClCompile>
+    <ClCompile Include="VerticalBlurShader.cpp">
+      <Filter>Source Files\Post Processing\Vertical Blur</Filter>
+    </ClCompile>
+    <ClCompile Include="HorizontalBlurShader.cpp">
+      <Filter>Source Files\Post Processing\Horizontal Blur</Filter>
+    </ClCompile>
+    <ClCompile Include="ContrastShader.cpp">
+      <Filter>Source Files\Post Processing\Contrast Changer</Filter>
+    </ClCompile>
+    <ClCompile Include="BloomShader.cpp">
+      <Filter>Source Files\Post Processing\Bloom Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="BrightnessGateShader.cpp">
+      <Filter>Source Files\Post Processing\Bloom Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Shape.cpp">
+      <Filter>Source Files\Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="ShapeRenderer.cpp">
+      <Filter>Source Files\Render Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Orbit.cpp">
+      <Filter>Source Files\Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="ShapeManager.cpp">
+      <Filter>Source Files\Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="PointManager.cpp">
+      <Filter>Source Files\Point</Filter>
+    </ClCompile>
+    <ClCompile Include="PointRenderer.cpp">
+      <Filter>Source Files\Render Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Time.cpp">
+      <Filter>Source Files\Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="WaterShader.cpp">
+      <Filter>Source Files\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainShader.cpp">
+      <Filter>Source Files\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="SunShader.cpp">
+      <Filter>Source Files\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticShader.cpp">
+      <Filter>Source Files\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyboxShader.cpp">
+      <Filter>Source Files\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="ShapeShader.cpp">
+      <Filter>Source Files\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="PointShader.cpp">
+      <Filter>Source Files\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiShader.cpp">
+      <Filter>Source Files\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Font.cpp">
+      <Filter>Source Files\Fonts</Filter>
+    </ClCompile>
+    <ClCompile Include="FontLoader.cpp">
+      <Filter>Source Files\Fonts</Filter>
+    </ClCompile>
+    <ClCompile Include="FadedShape.cpp">
+      <Filter>Source Files\Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="Planet.cpp">
+      <Filter>Source Files\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Point.cpp">
+      <Filter>Source Files\Point</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraThirdPerson.cpp">
+      <Filter>Source Files\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="TextManager.cpp">
+      <Filter>Source Files\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="TextMesh.cpp">
+      <Filter>Source Files\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="TextRenderer.cpp">
+      <Filter>Source Files\Render Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Asteroid.cpp">
+      <Filter>Source Files\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="TextShader.cpp">
+      <Filter>Source Files\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicTextMesh.cpp">
+      <Filter>Source Files\Text</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraFirstPersonNoclip.h">
+      <Filter>Header Files\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Display.h">
+      <Filter>Header Files\Display</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityManager.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="LightManager.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiShader.h">
+      <Filter>Header Files\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="ContrastShader.h">
+      <Filter>Header Files\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="BrightnessGateShader.h">
+      <Filter>Header Files\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="BloomShader.h">
+      <Filter>Header Files\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="HorizontalBlurShader.h">
+      <Filter>Header Files\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyboxShader.h">
+      <Filter>Header Files\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainShader.h">
+      <Filter>Header Files\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="VerticalBlurShader.h">
+      <Filter>Header Files\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="WaterShader.h">
+      <Filter>Header Files\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Header Files\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticShader.h">
+      <Filter>Header Files\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyboxRenderer.h">
+      <Filter>Header Files\Render Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityRenderer.h">
+      <Filter>Header Files\Render Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>Header Files\Render Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiRenderer.h">
+      <Filter>Header Files\Render Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Header Files\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Header Files\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Header Files\Toolbox</Filter>
+    </ClInclude>
+    <ClInclude Include="VectorMatrix.h">
+      <Filter>Header Files\Toolbox</Filter>
+    </ClInclude>
+    <ClInclude Include="Loader.h">
+      <Filter>Header Files\Toolbox</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Header Files\Toolbox</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>Header Files\Toolbox</Filter>
+    </ClInclude>
+    <ClInclude Include="FBO.h">
+      <Filter>Header Files\Toolbox</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiManager.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="PostProcessing.h">
+      <Filter>Header Files\Post Processing</Filter>
+    </ClInclude>
+    <ClInclude Include="Skybox.h">
+      <Filter>Header Files\Skybox</Filter>
+    </ClInclude>
+    <ClInclude Include="OBJ_Loader.h">
+      <Filter>Header Files\Toolbox</Filter>
+    </ClInclude>
+    <ClInclude Include="ShapeShader.h">
+      <Filter>Header Files\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Shape.h">
+      <Filter>Header Files\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="ShapeRenderer.h">
+      <Filter>Header Files\Render Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ShapeManager.h">
+      <Filter>Header Files\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="Orbit.h">
+      <Filter>Header Files\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="SunShader.h">
+      <Filter>Header Files\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Time.h">
+      <Filter>Header Files\Toolbox</Filter>
+    </ClInclude>
+    <ClInclude Include="PointManager.h">
+      <Filter>Header Files\Point</Filter>
+    </ClInclude>
+    <ClInclude Include="PointShader.h">
+      <Filter>Header Files\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="PointRenderer.h">
+      <Filter>Header Files\Render Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="TextRenderer.h">
+      <Filter>Header Files\Render Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="TextShader.h">
+      <Filter>Header Files\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="TextMesh.h">
+      <Filter>Header Files\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="TextManager.h">
+      <Filter>Header Files\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>Header Files\Toolbox</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files\Toolbox</Filter>
+    </ClInclude>
+    <ClInclude Include="Font.h">
+      <Filter>Header Files\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="FontLoader.h">
+      <Filter>Header Files\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="Planet.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>Header Files\Point</Filter>
+    </ClInclude>
+    <ClInclude Include="FadedShape.h">
+      <Filter>Header Files\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicTextMesh.h">
+      <Filter>Header Files\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraThirdPerson.h">
+      <Filter>Header Files\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Asteroid.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="INIReader.h">
+      <Filter>Header Files\Toolbox</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bloomFragmentShader.glsl">
+      <Filter>Source Files\Post Processing\Bloom Effect</Filter>
+    </None>
+    <None Include="bloomVertexShader.glsl">
+      <Filter>Source Files\Post Processing\Bloom Effect</Filter>
+    </None>
+    <None Include="brightnessGateFragmentShader.glsl">
+      <Filter>Source Files\Post Processing\Bloom Effect</Filter>
+    </None>
+    <None Include="brightnessGateVertexShader.glsl">
+      <Filter>Source Files\Post Processing\Bloom Effect</Filter>
+    </None>
+    <None Include="contrastVertexShader.glsl">
+      <Filter>Source Files\Post Processing\Contrast Changer</Filter>
+    </None>
+    <None Include="contrastFragmentShader.glsl">
+      <Filter>Source Files\Post Processing\Contrast Changer</Filter>
+    </None>
+    <None Include="verticalBlurVertexShader.glsl">
+      <Filter>Source Files\Post Processing\Vertical Blur</Filter>
+    </None>
+    <None Include="verticalBlurFragmentShader.glsl">
+      <Filter>Source Files\Post Processing\Vertical Blur</Filter>
+    </None>
+    <None Include="horizontalBlurVertexShader.glsl">
+      <Filter>Source Files\Post Processing\Horizontal Blur</Filter>
+    </None>
+    <None Include="horizontalBlurFragmentShader.glsl">
+      <Filter>Source Files\Post Processing\Horizontal Blur</Filter>
+    </None>
+    <None Include="shaders\bloomVertexShader.glsl">
+      <Filter>Shader Source\Bloom</Filter>
+    </None>
+    <None Include="shaders\bloomFragmentShader.glsl">
+      <Filter>Shader Source\Bloom</Filter>
+    </None>
+    <None Include="shaders\brightnessGateVertexShader.glsl">
+      <Filter>Shader Source\Bloom</Filter>
+    </None>
+    <None Include="shaders\brightnessGateFragmentShader.glsl">
+      <Filter>Shader Source\Bloom</Filter>
+    </None>
+    <None Include="shaders\contrastVertexShader.glsl">
+      <Filter>Shader Source\Contrast</Filter>
+    </None>
+    <None Include="shaders\contrastFragmentShader.glsl">
+      <Filter>Shader Source\Contrast</Filter>
+    </None>
+    <None Include="shaders\horizontalBlurVertexShader.glsl">
+      <Filter>Shader Source\Blur</Filter>
+    </None>
+    <None Include="shaders\horizontalBlurFragmentShader.glsl">
+      <Filter>Shader Source\Blur</Filter>
+    </None>
+    <None Include="shaders\verticalBlurVertexShader.glsl">
+      <Filter>Shader Source\Blur</Filter>
+    </None>
+    <None Include="shaders\verticalBlurFragmentShader.glsl">
+      <Filter>Shader Source\Blur</Filter>
+    </None>
+    <None Include="shaders\guiVertexShader.glsl">
+      <Filter>Shader Source\Gui</Filter>
+    </None>
+    <None Include="shaders\guiFragmentShader.glsl">
+      <Filter>Shader Source\Gui</Filter>
+    </None>
+    <None Include="shaders\pointFragmentShader.glsl">
+      <Filter>Shader Source\Point</Filter>
+    </None>
+    <None Include="shaders\pointVertexShader.glsl">
+      <Filter>Shader Source\Point</Filter>
+    </None>
+    <None Include="shaders\shapeFragmentShader.glsl">
+      <Filter>Shader Source\Shape</Filter>
+    </None>
+    <None Include="shaders\shapeVertexShader.glsl">
+      <Filter>Shader Source\Shape</Filter>
+    </None>
+    <None Include="shaders\staticFragmentShader.glsl">
+      <Filter>Shader Source\Static</Filter>
+    </None>
+    <None Include="shaders\staticVertexShader.glsl">
+      <Filter>Shader Source\Static</Filter>
+    </None>
+    <None Include="shaders\sunVertexShader.glsl">
+      <Filter>Shader Source\Sun</Filter>
+    </None>
+    <None Include="shaders\sunFragmentShader.glsl">
+      <Filter>Shader Source\Sun</Filter>
+    </None>
+    <None Include="shaders\terrainFragmentShader.glsl">
+      <Filter>Shader Source\Terrain</Filter>
+    </None>
+    <None Include="shaders\skyboxVertexShader.glsl">
+      <Filter>Shader Source\Skybox</Filter>
+    </None>
+    <None Include="shaders\skyboxFragmentShader.glsl">
+      <Filter>Shader Source\Skybox</Filter>
+    </None>
+    <None Include="shaders\terrainVertexShader.glsl">
+      <Filter>Shader Source\Terrain</Filter>
+    </None>
+    <None Include="shaders\waterVertexShader.glsl">
+      <Filter>Shader Source\Water</Filter>
+    </None>
+    <None Include="shaders\waterFragmentShader.glsl">
+      <Filter>Shader Source\Water</Filter>
+    </None>
+    <None Include="shaders\waterGeometryShader.glsl">
+      <Filter>Shader Source\Water</Filter>
+    </None>
+    <None Include="shaders\textVertexShader.glsl">
+      <Filter>Shader Source\Text</Filter>
+    </None>
+    <None Include="shaders\textFragmentShader.glsl">
+      <Filter>Shader Source\Text</Filter>
+    </None>
+    <None Include="config.ini">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Astronomy Solar System.rc">
+      <Filter>Source Files\Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
